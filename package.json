@@ -1,0 +1,73 @@
+{
+  "name": "vite-plugin-svelte-tailwind-auto-reference",
+  "version": "1.0.0",
+  "description": "A Vite plugin that automatically adds @reference directives to Svelte component style blocks for Tailwind CSS @apply support",
+  "type": "module",
+  "main": "./dist/plugin.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./dist/plugin.js"
+    }
+  },
+  "files": [
+    "dist/plugin.js",
+    "index.d.ts",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "prepublishOnly": "npm run build",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "svelte",
+    "tailwindcss",
+    "tailwind",
+    "css",
+    "reference",
+    "apply"
+  ],
+  "author": "awaiden",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awaiden/vite-plugin-svelte-tailwind-auto-reference.git"
+  },
+  "bugs": {
+    "url": "https://github.com/awaiden/vite-plugin-svelte-tailwind-auto-reference/issues"
+  },
+  "homepage": "https://github.com/awaiden/vite-plugin-svelte-tailwind-auto-reference#readme",
+  "peerDependencies": {
+    "vite": "^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.9.1",
+    "eslint": "^10.4.0",
+    "eslint-plugin-perfectionist": "^5.9.0",
+    "lint-staged": "^17.0.5",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.60.0",
+    "vite": "^8.0.3",
+    "husky": "^9.1.7"
+  },
+  "lint-staged": {
+    "*.{ts,js,mjs}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {}
+}

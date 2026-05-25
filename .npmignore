@@ -1,0 +1,37 @@
+# Source files (not needed in published package)
+src/
+public/
+index.html
+vite.config.ts
+tsconfig.json
+
+# Development files
+.vscode/
+.idea/
+*.log
+*.local
+
+# Build artifacts we don't want to publish
+node_modules/
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# CI/CD
+.github/
+
+# Lock files
+bun.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Linting and formatting
+.eslintrc*
+.prettierrc*
+eslint.config.*
+
+# Documentation (include in package via files field instead)
+CLAUDE.md
