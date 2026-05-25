@@ -6,7 +6,7 @@ export default defineConfig({
     neverBundle: ["vite", "node:path"],
   },
   dts: true,
-  entry: ["lib/plugin.ts"],
+  entry: ["src/index.ts"],
   format: ["esm"],
   outDir: "dist",
 });
