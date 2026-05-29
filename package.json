@@ -36,7 +36,6 @@
   "description": "A Vite plugin that automatically adds @reference directives to Svelte component style blocks for Tailwind CSS @apply support",
   "files": [
     "dist",
-    "src",
     "README.md",
     "LICENSE"
   ],
