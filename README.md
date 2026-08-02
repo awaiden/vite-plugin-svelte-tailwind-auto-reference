@@ -1,6 +1,6 @@
 # ⚠️ DEPRECATED
 
-> **Notice:** This plugin is deprecated and will no longer receive updates. Please use our new, unified plugin **[`vite-plugin-tailwind-ref`](https://github.com/awaiden/vite-plugin-tailwind-ref)** which supports Svelte, Vue, React, and standalone CSS files with better performance and Tailwind v4 features.
+> **Notice:** This plugin is deprecated and will no longer receive updates. Please use our new, unified plugin **[`vite-plugin-tailwind-ref`](https://github.com/awaiden/vite-plugin-tw-auto-reference)** which supports Svelte, Vue, React, and standalone CSS files with better performance and Tailwind v4 features.
 
 ---
 
