@@ -1,3 +1,9 @@
+# ⚠️ DEPRECATED
+
+> **Notice:** This plugin is deprecated and will no longer receive updates. Please use our new, unified plugin **[`vite-plugin-tailwind-ref`](https://github.com/awaiden/vite-plugin-tailwind-ref)** which supports Svelte, Vue, React, and standalone CSS files with better performance and Tailwind v4 features.
+
+---
+
 # vite-plugin-svelte-tailwind-auto-reference
 
 A Vite plugin that automatically adds `@reference` directives to Svelte component style blocks, enabling Tailwind CSS `@apply` directive support in scoped styles.
