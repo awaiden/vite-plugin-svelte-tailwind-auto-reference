@@ -2,6 +2,7 @@
   "name": "vite-plugin-svelte-tailwind-auto-reference",
   "version": "1.0.2",
   "author": "awaiden",
+  "deprecated": "This package is deprecated in favor of 'vite-plugin-tailwind-ref'. Please migrate for better multi-framework support and active updates: https://github.com/awaiden/vite-plugin-tailwind-ref",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/awaiden/vite-plugin-svelte-tailwind-auto-reference.git"
